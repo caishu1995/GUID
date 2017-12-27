@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>组件-获得GUID</title>
+</head>
+<body>
+    <input id="aa" value="" style="width: 300px;" />
+    <button onclick="onClickFunction()">点击</button>
+    <script src="getGUID.js"></script>
+    <script>
+        function onClickFunction() {
+            var aa = getGUID();
+            document.getElementById("aa").value = aa;
+        }
+    </script>
+</body>
+</html>
